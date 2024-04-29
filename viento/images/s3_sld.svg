@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1317" height="324" viewBox="0 0 1317 324">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_29506" data-name="사각형 29506" width="1317" height="324" transform="translate(603 8534)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="사각형_3232" x="434" y="20.001" width="497" height="324" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_3233" x="-5" y="20.001" width="497" height="324" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_2228" data-name="사각형 2228" width="20.776" height="19.547" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="사각형_2224" data-name="사각형 2224" width="12.871" height="12.871" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="사각형_2225" data-name="사각형 2225" width="12.868" height="12.868" fill="none"/>
+    </clipPath>
+    <filter id="사각형_3234" x="873" y="20.001" width="497" height="324" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-3"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="마스크_그룹_58539" data-name="마스크 그룹 58539" transform="translate(-603 -8534)" clip-path="url(#clip-path)">
+    <g id="s3_sld" transform="translate(0 9.502)">
+      <g transform="matrix(1, 0, 0, 1, 603, 8524.5)" filter="url(#사각형_3232)">
+        <rect id="사각형_3232-2" data-name="사각형 3232" width="419" height="246" rx="20" transform="translate(473 39)" fill="#fff"/>
+      </g>
+      <text id="Smart" transform="translate(1164 8637.5)" fill="#212121" font-size="29" font-family="Pretendard-Bold, Pretendard" font-weight="700" letter-spacing="-0.04em"><tspan x="0" y="0">Smart</tspan></text>
+      <text id="다양한_라이프_스타일에_대한_꾸준한_관찰과_끊임_없는_고민으로_똑똑하고_건강한_생활_습관을_제안합니다." data-name="다양한 라이프 스타일에 대한 꾸준한 관찰과 끊임 없는 고민으로 똑똑하고 건강한 생활 습관을 제안합니다." transform="translate(1114 8689)" fill="#4d4d4d" font-size="16" font-family="Pretendard-Light, Pretendard" font-weight="300" letter-spacing="-0.04em"><tspan x="0" y="0">다양한 라이프 스타일에 대한 꾸준한 관찰과 끊임 없는 </tspan><tspan x="0" y="24">고민으로 똑똑하고 건강한 생활 습관을 제안합니다.</tspan></text>
+      <rect id="사각형_2981" data-name="사각형 2981" width="5.101" height="22.024" transform="translate(1119.347 8609.997)" fill="none"/>
+      <g id="그룹_61320" data-name="그룹 61320" transform="translate(12 6)">
+        <rect id="사각형_2979" data-name="사각형 2979" width="39" height="39" rx="11" transform="translate(1102 8602)"/>
+        <g id="그룹_61317" data-name="그룹 61317" transform="translate(1 1.5)">
+          <path id="패스_8287" data-name="패스 8287" d="M0,21.949a2.725,2.725,0,1,1,2.725,2.725A2.725,2.725,0,0,1,0,21.949" transform="translate(1118 8605.538)" fill="#fff"/>
+          <rect id="사각형_2232" data-name="사각형 2232" width="5.329" height="12.895" rx="2.665" transform="translate(1118 8609.5)" fill="#ccc"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 603, 8524.5)" filter="url(#사각형_3233)">
+        <rect id="사각형_3233-2" data-name="사각형 3233" width="419" height="246" rx="20" transform="translate(34 39)" fill="#fff"/>
+      </g>
+      <text id="Hamonious" transform="translate(725 8637.5)" fill="#212121" font-size="29" font-family="Pretendard-Bold, Pretendard" font-weight="700" letter-spacing="-0.04em"><tspan x="0" y="0">Hamonious</tspan></text>
+      <text id="우리_제품은_언제나_일상에_존재합니다._보이지_않지만_삶에_매우_중요한_요소를_관리하기에_화려_하거나_눈에_매우_띄는_디자인보다_일상에_자연스럽게_스며들어_균형을_이루며_어떤_환경과도_조화를_이룹니다." data-name="우리 제품은 언제나 일상에 존재합니다. 
+보이지 않지만 삶에 매우 중요한 요소를 관리하기에 화려
+하거나 눈에 매우 띄는 디자인보다 일상에 자연스럽게 
+스며들어 균형을 이루며, 어떤 환경과도 조화를 이룹니다." transform="translate(675 8689)" fill="#4d4d4d" font-size="16" font-family="Pretendard-Light, Pretendard" font-weight="300" letter-spacing="-0.04em"><tspan x="0" y="0">우리 제품은 언제나 일상에 존재합니다. </tspan><tspan x="0" y="24">보이지 않지만 삶에 매우 중요한 요소를 관리하기에 화려</tspan><tspan x="0" y="48">하거나 눈에 매우 띄는 디자인보다 일상에 자연스럽게 </tspan><tspan x="0" y="72">스며들어 균형을 이루며, 어떤 환경과도 조화를 이룹니다.</tspan></text>
+      <g id="그룹_61322" data-name="그룹 61322" transform="translate(12 6)">
+        <rect id="사각형_2978" data-name="사각형 2978" width="39" height="39" rx="11" transform="translate(663 8602)"/>
+        <g id="그룹_6704" data-name="그룹 6704" transform="translate(672 8611)">
+          <g id="그룹_5349" data-name="그룹 5349" clip-path="url(#clip-path-2)">
+            <g id="그룹_5348" data-name="그룹 5348" transform="translate(0 0)">
+              <g id="그룹_5347" data-name="그룹 5347" clip-path="url(#clip-path-2)">
+                <g id="그룹_5340" data-name="그룹 5340" transform="translate(3.957 0)" opacity="0.3">
+                  <g id="그룹_5339" data-name="그룹 5339" transform="translate(0 0)">
+                    <g id="그룹_5338" data-name="그룹 5338" clip-path="url(#clip-path-4)">
+                      <path id="패스_8284" data-name="패스 8284" d="M16.728,8.469A6.434,6.434,0,1,1,12.658.332a6.434,6.434,0,0,1,4.07,8.138" transform="translate(-4.189 0)" fill="#fff"/>
+                    </g>
+                  </g>
+                </g>
+                <g id="그룹_5343" data-name="그룹 5343" transform="translate(7.908 6.679)" opacity="0.5">
+                  <g id="그룹_5342" data-name="그룹 5342">
+                    <g id="그룹_5341" data-name="그룹 5341" clip-path="url(#clip-path-5)">
+                      <path id="패스_8285" data-name="패스 8285" d="M19.074,18.318a6.434,6.434,0,1,1,.545-9.082,6.433,6.433,0,0,1-.545,9.082" transform="translate(-8.371 -7.07)" fill="#fff"/>
+                    </g>
+                  </g>
+                </g>
+                <g id="그룹_5346" data-name="그룹 5346" transform="translate(0 6.63)" opacity="0.8">
+                  <g id="그룹_5345" data-name="그룹 5345">
+                    <g id="그룹_5344" data-name="그룹 5344" clip-path="url(#clip-path-5)">
+                      <path id="패스_8286" data-name="패스 8286" d="M10.7,18.265a6.434,6.434,0,1,1,.545-9.082,6.433,6.433,0,0,1-.545,9.082" transform="translate(0 -7.018)" fill="#fff"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 603, 8524.5)" filter="url(#사각형_3234)">
+        <rect id="사각형_3234-2" data-name="사각형 3234" width="419" height="246" rx="20" transform="translate(912 39)" fill="#fff"/>
+      </g>
+      <text id="Delight" transform="translate(1603 8637.5)" fill="#212121" font-size="29" font-family="Pretendard-Bold, Pretendard" font-weight="700" letter-spacing="-0.04em"><tspan x="0" y="0">Delight</tspan></text>
+      <text id="우리와_처음_마주한_순간부터_호흡하기까지의_모든_과정에서_새로운_생활_경험을_제공합니다._이_과정에서_건강하고_행복한_삶의_이야기가_만들어지기를_희망합니다." data-name="우리와 처음 마주한 순간부터 호흡하기까지의 
+모든 과정에서 새로운 생활 경험을 제공합니다. 
+이 과정에서 건강하고 행복한 삶의 이야기가 만들어지기를 희망합니다." transform="translate(1553 8689)" fill="#4d4d4d" font-size="16" font-family="Pretendard-Light, Pretendard" font-weight="300" letter-spacing="-0.04em"><tspan x="0" y="0">우리와 처음 마주한 순간부터 호흡하기까지의 </tspan><tspan x="0" y="24">모든 과정에서 새로운 생활 경험을 제공합니다. </tspan><tspan x="0" y="48">이 과정에서 건강하고 행복한 삶의 이야기가 </tspan><tspan x="0" y="72">만들어지기를 희망합니다.</tspan></text>
+      <g id="그룹_61321" data-name="그룹 61321" transform="translate(12 6)">
+        <rect id="사각형_2980" data-name="사각형 2980" width="39" height="39" rx="11" transform="translate(1541 8602)"/>
+        <g id="그룹_61319" data-name="그룹 61319" transform="translate(0 0.959)">
+          <path id="패스_8281" data-name="패스 8281" d="M8.8,2.5A2.5,2.5,0,1,1,6.3,0,2.5,2.5,0,0,1,8.8,2.5" transform="translate(1549.187 8612)" fill="#fff"/>
+          <g id="그룹_61318" data-name="그룹 61318">
+            <path id="패스_8282" data-name="패스 8282" d="M18.068,2.5a2.5,2.5,0,1,1-2.5-2.5,2.5,2.5,0,0,1,2.5,2.5" transform="translate(1549.798 8612)" fill="#fff"/>
+            <path id="패스_8283" data-name="패스 8283" d="M8.425,15.046C3.78,15.046,0,11.64,0,7.454a1.021,1.021,0,0,1,2.041,0c0,3.061,2.864,5.551,6.383,5.551s6.383-2.49,6.383-5.551a1.021,1.021,0,0,1,2.041,0c0,4.186-3.78,7.592-8.425,7.592" transform="translate(1552 8614.036)" fill="#fff" stroke="#fff" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

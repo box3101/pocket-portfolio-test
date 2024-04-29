@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="219.859" height="33.545" viewBox="0 0 219.859 33.545">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2078" data-name="사각형 2078" width="219.859" height="33.545"/>
+    </clipPath>
+  </defs>
+  <g id="s8_logo" transform="translate(-890 -16861.195)" opacity="0.27">
+    <path id="패스_8181" data-name="패스 8181" d="M44.327,0,31.381,33.545H40.19L53.091,0Z" transform="translate(870.454 16861.195)"/>
+    <path id="패스_8182" data-name="패스 8182" d="M0,0,10.677,27.628l4.4-11.371L8.809,0Z" transform="translate(890 16861.195)"/>
+    <rect id="사각형_2077" data-name="사각형 2077" width="8.186" height="33.545" transform="translate(931.785 16861.195)"/>
+    <path id="패스_8183" data-name="패스 8183" d="M383.236,0V8.186h12.679V33.545H404.1V8.186h12.679V0Z" transform="translate(651.293 16861.195)"/>
+    <g id="그룹_5282" data-name="그룹 5282" transform="translate(890 16861.195)">
+      <g id="그룹_5281" data-name="그룹 5281" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="패스_8184" data-name="패스 8184" d="M191.542,8.186V0H166.183V.025a8.663,8.663,0,0,0-8.161,8.161c-.009.163-.025.325-.025.491V24.868c0,.166.015.328.025.491a8.663,8.663,0,0,0,8.161,8.161v.025h25.359V25.359H166.183V20.865h25.359V12.679H166.183V8.186Z" transform="translate(-98.412 0)"/>
+        <path id="패스_8185" data-name="패스 8185" d="M305.957,8.186A8.663,8.663,0,0,0,297.8.025V0H272.437V33.545h8.186V8.186H297.8V33.545h8.186V8.186Z" transform="translate(-169.694 0)"/>
+        <path id="패스_8186" data-name="패스 8186" d="M527.554,8.187A8.664,8.664,0,0,0,519.393.025V0H502.22V.025a8.664,8.664,0,0,0-8.161,8.162h-.025V25.36h.025a8.663,8.663,0,0,0,8.161,8.161v.025h17.173v-.025a8.663,8.663,0,0,0,8.161-8.161h.025V8.187Zm-25.334,0h17.173V25.36H502.22Z" transform="translate(-307.72 -0.001)"/>
+      </g>
+    </g>
+  </g>
+</svg>

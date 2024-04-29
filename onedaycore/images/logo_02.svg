@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182" height="30" viewBox="0 0 182 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2597" data-name="사각형 2597" width="9.567" height="9.994" fill="#03170d"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_5855" data-name="그룹 5855" transform="translate(-1438 -1155)">
+    <text id="ONEDAYCORE" transform="translate(1460 1179)" fill="#fff" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.075em"><tspan x="0" y="0">ONEDAYCORE</tspan></text>
+    <g id="그룹_5802" data-name="그룹 5802" transform="translate(972 -181.589)">
+      <circle id="타원_633" data-name="타원 633" cx="8" cy="8" r="8" transform="translate(466 1344.589)" fill="#fff"/>
+      <g id="그룹_5788" data-name="그룹 5788" transform="translate(468.962 1348.016)">
+        <g id="그룹_5787" data-name="그룹 5787" clip-path="url(#clip-path)">
+          <path id="패스_5025" data-name="패스 5025" d="M8.771.913C6.88,2.1,4.2,1.616,2.416,2.461A3.49,3.49,0,0,0,.231,6.291C1.667,2.5,5.78,3.145,5.78,3.145A7.071,7.071,0,0,0,1.6,5.487,6.154,6.154,0,0,0,.523,7.222,6.468,6.468,0,0,0,0,9.959H.01l.135.013h0L.4,9.994a4.767,4.767,0,0,1,.33-2.206,3.568,3.568,0,0,0,.964.331A5.824,5.824,0,0,0,6.433,7.029,8.175,8.175,0,0,0,9.565,0c.007.386-.524.743-.794.913" transform="translate(0 0)" fill="#03170d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+.viento .crumb-txt {
+  margin-bottom: 22px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #6D6D6D;
+}
+.viento .viento-ttl {
+  font-size: 2.875rem;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2068;
+}
+.viento .viento-desc {
+  margin-top: 27px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.35;
+}

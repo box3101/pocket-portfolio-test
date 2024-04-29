@@ -1,0 +1,1385 @@
+@charset "UTF-8";
+.br-l-center {
+  max-width: 1730px;
+  /*1700*/
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.br-m-center {
+  max-width: 1530px;
+  /*1500*/
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@-webkit-keyframes horizontal-scroll {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  40% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100% {
+    opacity: 0.3;
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+}
+
+@keyframes horizontal-scroll {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  40% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100% {
+    opacity: 0.3;
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+}
+.scroll-horizontal-full-img {
+  -webkit-animation-name: horizontal-full-scroll;
+          animation-name: horizontal-full-scroll;
+  -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes horizontal-full-scroll {
+  0% {
+    -webkit-transform: translateX(17%);
+            transform: translateX(17%);
+  }
+  100% {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+}
+
+@keyframes horizontal-full-scroll {
+  0% {
+    -webkit-transform: translateX(17%);
+            transform: translateX(17%);
+  }
+  100% {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+}
+@-webkit-keyframes expansion {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+    opacity: 1;
+  }
+}
+@keyframes expansion {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+    opacity: 1;
+  }
+}
+.scroll-horizontal-img {
+  -webkit-animation-name: horizontal-scroll;
+          animation-name: horizontal-scroll;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@keyframes horizontal-scroll {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  40% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    opacity: 0.3;
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+}
+.icon {
+  display: inline-block;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.icon-arrow-right-bk {
+  width: 19px;
+  height: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.023' height='5' viewBox='0 0 19.023 5'%3E%3Cg id='그룹_61288' data-name='그룹 61288' transform='translate(-15129 21732)'%3E%3Crect id='사각형_29366' data-name='사각형 29366' width='19' height='5' transform='translate(15129 -21732)' fill='none'/%3E%3Cpath id='패스_17131' data-name='패스 17131' d='M424.764,1327h17.392l-3.638-4' transform='translate(14704.736 -23054.5)' fill='none' stroke='%23000' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.icon-arrow-right-white {
+  width: 19px;
+  height: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.023' height='5' viewBox='0 0 19.023 5'%3E%3Cg id='그룹_61289' data-name='그룹 61289' transform='translate(-15129 21719)'%3E%3Crect id='사각형_29365' data-name='사각형 29365' width='19' height='5' transform='translate(15129 -21719)' fill='none'/%3E%3Cpath id='패스_17132' data-name='패스 17132' d='M424.764,1327h17.392l-3.638-4' transform='translate(14704.736 -23041.5)' fill='none' stroke='%23fff' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.icon-arrow-yellow {
+  width: 15px;
+  height: 13px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.828' height='13' viewBox='0 0 15.828 13'%3E%3Cg id='그룹_61301' data-name='그룹 61301' transform='translate(-17625.586 4063)'%3E%3Crect id='사각형_29381' data-name='사각형 29381' width='15' height='13' transform='translate(17626 -4063)' fill='none'/%3E%3Cg id='그룹_61300' data-name='그룹 61300' transform='translate(-1184.5 -3042) rotate(-90)'%3E%3Cg id='그룹_53919' data-name='그룹 53919' transform='translate(-11 -18)' opacity='0.4'%3E%3Cline id='선_3250' data-name='선 3250' x2='5' y2='5' transform='translate(1020.5 18829.5)' fill='none' stroke='%23ffe747' stroke-linecap='round' stroke-width='2'/%3E%3Cpath id='패스_16820' data-name='패스 16820' d='M5,0,0,5' transform='translate(1025.5 18829.5)' fill='none' stroke='%23ffe747' stroke-linecap='round' stroke-width='2'/%3E%3C/g%3E%3Cg id='그룹_53920' data-name='그룹 53920' transform='translate(-11 -10)'%3E%3Cline id='선_3250-2' data-name='선 3250' x2='5' y2='5' transform='translate(1020.5 18829.5)' fill='none' stroke='%23ffe747' stroke-linecap='round' stroke-width='2'/%3E%3Cpath id='패스_16820-2' data-name='패스 16820' d='M5,0,0,5' transform='translate(1025.5 18829.5)' fill='none' stroke='%23ffe747' stroke-linecap='round' stroke-width='2'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.breation .breation-main-section {
+  position: relative;
+}
+.breation .breation-main-section .txt-grp {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.breation .breation-main-section .txt-grp .top {
+  margin-bottom: 13px;
+  padding-top: 64px;
+}
+.breation .breation-main-section .txt-grp .top .txt {
+  padding-right: 12px;
+}
+.breation .breation-main-section .txt-grp .top .txt:last-child {
+  padding-right: 0;
+}
+.breation .breation-main-section .txt-grp .top .txt:last-child::after {
+  display: none;
+}
+.breation .breation-main-section .txt-grp .top .txt::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background-color: #fff;
+  margin-left: 12px;
+}
+.breation .breation-main-section .txt {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  color: #fff;
+}
+.breation .breation-main-section .txt .bold {
+  color: #fff;
+}
+.breation .breation-main-section .vdo-grp {
+  width: 100%;
+  height: 1080px;
+}
+.breation .breation-main-section .vdo-grp .vdo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.breation .overview-section {
+  padding: 170px 0 168px;
+}
+.breation .overview-section .txt-grp {
+  margin-bottom: 61px;
+  text-align: center;
+}
+.breation .overview-section .txt-grp .sm-ttl {
+  margin-bottom: 44px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #888;
+}
+.breation .overview-section .txt-grp .ttl {
+  display: block;
+  margin: 44px 0 66px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #242525;
+}
+.breation .overview-section .txt-grp .txt {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #242525;
+}
+.breation .overview-section .txt-grp .txt.type-first {
+  margin-bottom: 44px;
+  line-height: 29px;
+}
+.breation .overview-section .txt-grp .txt.type-second {
+  line-height: 31px;
+}
+.breation .overview-section .txt-grp .txt .bold {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #242525;
+}
+.breation .overview-section .link-grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+}
+.breation .overview-section .link-grp .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10.6px;
+  padding: 12px 21px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.breation .overview-section .link-grp .link:hover {
+  border: 1px solid #202020;
+  background-color: #202020;
+  color: #fff;
+}
+.breation .overview-section .link-grp .link:hover .icon-arrow-right-bk {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19.023' height='5' viewBox='0 0 19.023 5'%3E%3Cg id='그룹_61289' data-name='그룹 61289' transform='translate(-15129 21719)'%3E%3Crect id='사각형_29365' data-name='사각형 29365' width='19' height='5' transform='translate(15129 -21719)' fill='none'/%3E%3Cpath id='패스_17132' data-name='패스 17132' d='M424.764,1327h17.392l-3.638-4' transform='translate(14704.736 -23041.5)' fill='none' stroke='%23fff' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
+  -webkit-animation-name: horizontal-scroll;
+          animation-name: horizontal-scroll;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+.breation .goals-section {
+  background-image: url("/breation/images/img_goals_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 273.6px 0 322px;
+}
+.breation .goals-section .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.breation .goals-section .ttl-txt-grp .ttl-img {
+  width: 466px;
+  height: 323px;
+}
+.breation .goals-section .ttl-txt-grp .ttl-img .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .goals-section .ttl-txt-grp .desc {
+  margin-top: 52.5px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.breation .goals-section .obj-grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 23.6px;
+  margin-top: 24.7px;
+}
+.breation .goals-section .obj-grp .obj-01 {
+  width: 89px;
+  height: 151px;
+}
+.breation .goals-section .obj-grp .obj-01 .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .goals-section .obj-grp .obj-02 {
+  width: 151px;
+  height: 151px;
+}
+.breation .goals-section .obj-grp .obj-02 .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .goals-section .goals-card-grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-top: 133px;
+}
+.breation .goals-section .goals-card-grp .goals-card {
+  width: 33.3333333333%;
+  padding: 61px 60px 62px;
+  border-radius: 30px;
+  -webkit-backdrop-filter: blur(9px) brightness(1.1);
+          backdrop-filter: blur(9px) brightness(1.1);
+}
+.breation .goals-section .goals-card-grp .goals-card::before {
+  content: "";
+  position: absolute;
+  padding: 1px;
+  border-radius: 30px;
+  inset: 0;
+  background: linear-gradient(320deg, rgba(255, 255, 255, 0) 40%, rgba(232, 253, 255, 0.7) 100%);
+  -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) content-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+          mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) content-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
+          mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+.breation .goals-section .goals-card-grp .goals-card .ttl {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.057px;
+  color: #fff;
+}
+.breation .goals-section .goals-card-grp .goals-card .sm-txt {
+  margin: 19px 0 59px;
+  font-size: 1.125rem;
+  letter-spacing: -0.514px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.42);
+}
+.breation .goals-section .goals-card-grp .goals-card .sm-txt::after {
+  content: "";
+  display: block;
+  margin-top: 19px;
+  width: 14px;
+  height: 1px;
+  background-color: #3E65FF;
+}
+.breation .goals-section .goals-card-grp .goals-card .desc {
+  line-height: 27px;
+  font-size: 1.25rem;
+  letter-spacing: -0.625px;
+  font-weight: 300;
+  color: #D6D6D6;
+}
+.breation .goals-section .goals-txt-grp {
+  margin-top: 330px;
+}
+.breation .goals-section .goals-txt-grp .goals-quote-txt {
+  position: relative;
+  max-width: 870px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: -1.043px;
+  text-align: center;
+  color: #727579;
+}
+.breation .goals-section .goals-txt-grp .goals-quote-txt::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: auto;
+  width: 25px;
+  height: 17px;
+  background-image: url("/breation/images/img_quote_left.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.breation .goals-section .goals-txt-grp .goals-quote-txt::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 25px;
+  height: 17px;
+  background-image: url("/breation/images/img_quote_right.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.breation .goals-section .goals-txt-grp .goals-quote-txt .wh-txt {
+  letter-spacing: -0.043px;
+  color: #fff;
+}
+.breation .goals-section .goals-txt-grp .goals-txt-list-grp {
+  width: 893px;
+  margin: 70px auto 0;
+}
+.breation .goals-section .goals-txt-grp .goals-txt-list-grp .goals-txt {
+  padding: 13px 22px 14px;
+  border: 1px solid #464646;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: -0.077px;
+  color: #D1D1D1;
+}
+.breation .goals-section .goals-txt-grp .goals-txt-list-grp .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+.breation .goals-section .goals-txt-grp .goals-txt-list-grp .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.breation .two-block-section .panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.breation .two-block-section .block-grp {
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 117px 0 103px 110px;
+  background-color: #121923;
+}
+.breation .two-block-section .block-grp.type-blue-bg {
+  background-color: #012DDC;
+  color: #012DDC;
+}
+.breation .two-block-section .block-grp.type-blue-bg .num {
+  background-color: #fff;
+  color: #012DDC;
+}
+.breation .two-block-section .block-grp.type-blue-bg .desc {
+  color: #fff;
+}
+.breation .two-block-section .block-grp.type-blue-bg .list-wrap .list {
+  background-color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.009px;
+  color: #012DDC;
+}
+.breation .two-block-section .block-grp.type-blue-bg .img-grp {
+  width: 205px;
+  height: 212px;
+}
+.breation .two-block-section .block-grp .top {
+  margin-bottom: 82px;
+}
+.breation .two-block-section .block-grp .ttl {
+  display: block;
+  margin-bottom: 67px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+.breation .two-block-section .block-grp .num {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.26);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: #1C1C1C;
+}
+.breation .two-block-section .block-grp .desc {
+  margin: 30px 0 40px;
+  font-size: 1.25rem;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: -0.5795px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.breation .two-block-section .block-grp .desc.type-mb {
+  margin-bottom: 109px;
+}
+.breation .two-block-section .block-grp .list-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  height: 94px;
+}
+.breation .two-block-section .block-grp .list-wrap .list-grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+.breation .two-block-section .block-grp .list-wrap .list {
+  padding: 11px 16px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 1.0625rem;
+  font-weight: 300;
+  color: #CBCBCB;
+}
+.breation .two-block-section .block-grp .img-grp {
+  display: block;
+  width: 187px;
+  height: 199px;
+}
+.breation .two-block-section .block-grp .img-grp .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .notify-section {
+  position: relative;
+  padding-bottom: 414px;
+  background-image: url("/breation/images/img_notify_bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.breation .notify-section .top-txt {
+  position: absolute;
+  top: 304.2px;
+  left: 50%;
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 13px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  color: #fff;
+}
+.breation .notify-section .top-txt .sm-txt {
+  text-decoration: unset;
+  position: absolute;
+  top: -10px;
+  left: 380px;
+  font-size: 15px;
+}
+.breation .notify-section .phone-img-grp {
+  display: block;
+  width: 834px;
+  height: 914px;
+  margin: 0 auto;
+  padding: 940px 110px 0 0;
+}
+.breation .notify-section .phone-img-grp .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .notify-section .txt-grp {
+  margin-top: 93.4px;
+  text-align: center;
+}
+.breation .notify-section .txt-grp .ttl-img-grp {
+  display: block;
+  max-width: 1061px;
+  width: 100%;
+  height: 79px;
+  margin: 0 auto;
+}
+.breation .notify-section .txt-grp .ttl-img-grp .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .notify-section .txt-grp .sm-txt {
+  margin: 69px 0 88px;
+  font-size: 2.25rem;
+  font-weight: 200;
+  color: #fff;
+}
+.breation .notify-section .txt-grp .desc {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 35px;
+  color: #fff;
+}
+.breation .notify-section .cloud-img-grp {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.breation .notify-section .cloud-img-grp .cloud-img {
+  display: inline-block;
+  position: absolute;
+}
+.breation .notify-section .cloud-img-grp .cloud-img.left {
+  width: 406px;
+  height: 641px;
+  top: 558px;
+  left: auto;
+}
+.breation .notify-section .cloud-img-grp .cloud-img.right {
+  width: 210px;
+  height: 419px;
+  top: auto;
+  bottom: 198px;
+  right: 0;
+}
+.breation .txt-bg-section {
+  padding: 529.2px 0 132.5px;
+  background-image: url("/breation/images/img_breation_logo_section_bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.breation .txt-bg-section .img-grp {
+  display: block;
+  width: 685px;
+  height: 220px;
+  margin: 0 auto 346.3px;
+}
+.breation .txt-bg-section .txt {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 28.5px;
+  letter-spacing: -0.476px;
+  text-align: center;
+  color: #fff;
+}
+.breation .txt-bg-section .txt::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 0 auto 32px;
+  background-color: #fff;
+}
+.breation .three-block-section .card-grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.breation .three-block-section .card-grp::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1206px;
+  height: 160px;
+  background-image: url("/breation/images/img_breation_txt02.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.breation .three-block-section .card-grp .card {
+  width: 33.3333333333%;
+  padding: 82px 0 60px;
+  background-color: #000;
+}
+.breation .three-block-section .card-grp .card.type-blue {
+  background-color: #012DDC;
+}
+.breation .three-block-section .card-grp .card.type-white {
+  background-color: #fff;
+}
+.breation .three-block-section .card-grp .card.type-white .color-ttl {
+  color: #8F8F8F;
+}
+.breation .three-block-section .card-grp .card.type-white .color-txt {
+  color: #8F8F8F;
+}
+.breation .three-block-section .card-grp .card.type-white .txt.rgb {
+  color: #BCBCBC;
+}
+.breation .three-block-section .card-grp .card.type-white .txt.cmyk {
+  color: #BCBCBC;
+}
+.breation .three-block-section .card-grp .top {
+  margin-bottom: 306px;
+  text-align: center;
+}
+.breation .three-block-section .card-grp .color-ttl {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 1.625rem;
+  font-weight: 700;
+  letter-spacing: 0.019px;
+  color: #fff;
+}
+.breation .three-block-section .card-grp .color-txt {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -0.012px;
+  color: #fff;
+}
+.breation .three-block-section .card-grp .bottom {
+  text-align: center;
+}
+.breation .three-block-section .card-grp .img-grp {
+  display: block;
+  width: 40px;
+  height: 24px;
+  margin: 0 auto 32px;
+}
+.breation .three-block-section .card-grp .img-grp .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .three-block-section .card-grp .txt {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+.breation .three-block-section .card-grp .txt.rgb {
+  margin-bottom: 10px;
+  letter-spacing: 3.418px;
+}
+.breation .three-block-section .card-grp .txt.cmyk {
+  letter-spacing: -0.032px;
+}
+.breation .employee-card-section .employee-card-bg {
+  height: 1080px;
+  background-image: url("/breation/images/img_employee_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .brochure-section .brochure-bg {
+  height: 1285px;
+  background-image: url("/breation/images/img_brochure_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .tumbler-section .tumbler-bg {
+  height: 1080px;
+  background-image: url("/breation/images/img_tumbler_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .logo-bg-section .logo-bg {
+  height: 965px;
+  background-image: url("/breation/images/img_logo_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .tape-bg-section .tape-bg {
+  height: 1080px;
+  background-image: url("/breation/images/img_tape_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .uxui-section {
+  padding: 252px 0 299px;
+  background-color: #fff;
+}
+.breation .uxui-section .txt-grp {
+  text-align: center;
+}
+.breation .uxui-section .txt-grp .ttl {
+  font-size: 3.875rem;
+  font-weight: 700;
+  letter-spacing: -1.864px;
+  color: #000;
+}
+.breation .uxui-section .txt-grp .desc {
+  padding: 57px 0 91px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 31.5px;
+  letter-spacing: -0.5854px;
+  color: #000;
+}
+.breation .uxui-section .vdo-grp {
+  width: 100%;
+  height: 966px;
+  background-color: #ddd;
+}
+.breation .uxui-section .vdo-grp .vdo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .toyb-section {
+  position: relative;
+}
+.breation .toyb-section::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 317px;
+  right: 0;
+  display: block;
+  width: 1344px;
+  height: 234px;
+  background-image: url("/breation//images/img_breation_txt.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.breation .toyb-section .txt-grp {
+  width: 591px;
+  margin-left: auto;
+  margin-right: 365px;
+  margin-bottom: 384px;
+}
+.breation .toyb-section .txt-grp .ttl {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.94px;
+  color: #000;
+}
+.breation .toyb-section .txt-grp .txt {
+  margin-top: 27px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: -0.6px;
+  color: #000;
+}
+.breation .contact-wrap {
+  background-image: url("/breation/images/img_contact_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .contact-wrap .toyb-img-wrap {
+  position: relative;
+}
+.breation .contact-wrap .toyb-img-grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 40px;
+}
+.breation .contact-wrap .toyb-img-grp .img-grp-01 {
+  margin-top: -670px;
+  margin-left: -30px;
+}
+.breation .contact-wrap .toyb-img-grp .img-grp-02 {
+  margin-top: -1000px;
+}
+.breation .contact-wrap .toyb-img-grp .img-grp-03 {
+  margin-top: -850px;
+}
+.breation .contact-wrap .toyb-img-grp .img {
+  width: 102%;
+  height: 102%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .contact-wrap .line-wrap {
+  position: absolute;
+  width: 321px;
+  height: 1513px;
+  top: 115px;
+  left: 380px;
+}
+.breation .contact-wrap .line-wrap .line-horizonal {
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='51.5' height='1' viewBox='0 0 51.5 1'%3E%3Cg id='그룹_61306' data-name='그룹 61306' transform='translate(-14933.5 5222)'%3E%3Cline id='선_4244' data-name='선 4244' x1='51' transform='translate(14933.5 -5221.5)' fill='none' stroke='%23ffe747' stroke-width='1' stroke-dasharray='4 5'/%3E%3Crect id='사각형_29385' data-name='사각형 29385' width='51' height='1' transform='translate(14934 -5222)' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.breation .contact-wrap .line-wrap .line-horizonal::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  width: 40px;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='40' height='42' viewBox='0 0 40 42'%3E%3Cdefs%3E%3Cfilter id='타원_1604' x='0' y='2' width='40' height='40' filterUnits='userSpaceOnUse'%3E%3CfeOffset dy='2' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='4' result='blur'/%3E%3CfeFlood flood-opacity='0.341'/%3E%3CfeComposite operator='in' in2='blur'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cg id='그룹_61311' data-name='그룹 61311' transform='translate(-733 -18142)'%3E%3Ccircle id='타원_1603' data-name='타원 1603' cx='20' cy='20' r='20' transform='translate(733 18142)' fill='%23ffe747' opacity='0.12'/%3E%3Cg transform='matrix(1, 0, 0, 1, 733, 18142)' filter='url(%23타원_1604)'%3E%3Ccircle id='타원_1604-2' data-name='타원 1604' cx='8' cy='8' r='8' transform='translate(12 12)' fill='%23ffe747'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
+}
+.breation .contact-wrap .line-wrap .line-horizonal::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: 0;
+  width: 1px;
+  height: 665px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='630.5' viewBox='0 0 1 630.5'%3E%3Cg id='그룹_61308' data-name='그룹 61308' transform='translate(-14775 5548.5)'%3E%3Cline id='선_4246' data-name='선 4246' y2='630' transform='translate(14775.5 -5548.5)' fill='none' stroke='%23ffe747' stroke-width='1' stroke-dasharray='4 5'/%3E%3Crect id='사각형_29388' data-name='사각형 29388' width='1' height='630' transform='translate(14775 -5548)' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.breation .contact-wrap .line-wrap .line-horizonal-bottom {
+  position: absolute;
+  top: 660px;
+  left: 50px;
+  width: 271.5px;
+  height: 1px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='271.5' height='1' viewBox='0 0 271.5 1'%3E%3Cg id='그룹_61308' data-name='그룹 61308' transform='translate(-14551 6060)'%3E%3Cline id='선_4247' data-name='선 4247' x1='271' transform='translate(14551.5 -6059.5)' fill='none' stroke='%23ffe747' stroke-width='1' stroke-dasharray='4 5'/%3E%3Crect id='사각형_29390' data-name='사각형 29390' width='271' height='1' transform='translate(14551 -6060)' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.breation .contact-wrap .line-wrap .line-horizonal-bottom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -218px;
+  left: 93%;
+  width: 40px;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='40' height='42' viewBox='0 0 40 42'%3E%3Cdefs%3E%3Cfilter id='타원_1604' x='0' y='2' width='40' height='40' filterUnits='userSpaceOnUse'%3E%3CfeOffset dy='2' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='4' result='blur'/%3E%3CfeFlood flood-opacity='0.341'/%3E%3CfeComposite operator='in' in2='blur'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cg id='그룹_61311' data-name='그룹 61311' transform='translate(-733 -18142)'%3E%3Ccircle id='타원_1603' data-name='타원 1603' cx='20' cy='20' r='20' transform='translate(733 18142)' fill='%23ffe747' opacity='0.12'/%3E%3Cg transform='matrix(1, 0, 0, 1, 733, 18142)' filter='url(%23타원_1604)'%3E%3Ccircle id='타원_1604-2' data-name='타원 1604' cx='8' cy='8' r='8' transform='translate(12 12)' fill='%23ffe747'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.breation .contact-wrap .line-wrap .line-horizonal-bottom::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -190px;
+  left: 100%;
+  width: 1px;
+  height: 1133px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1082' viewBox='0 0 1 1082'%3E%3Cg id='그룹_61309' data-name='그룹 61309' transform='translate(-14807 5419)'%3E%3Cline id='선_4248' data-name='선 4248' y2='1081.5' transform='translate(14807.5 -5418.5)' fill='none' stroke='%23ffe747' stroke-width='1' stroke-dasharray='4 5'/%3E%3Crect id='사각형_29391' data-name='사각형 29391' width='1' height='1081.5' transform='translate(14807 -5419)' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.breation .contact-wrap .txt-grp {
+  width: 50%;
+  margin: -160px 0 109px auto;
+  padding: 0 109px;
+}
+.breation .contact-wrap .txt-grp .ttl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 47px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.3);
+}
+.breation .contact-wrap .txt-grp .txt {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 31.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.breation .contact-wrap .txt-grp .icon-arrow-yellow {
+  margin: 0 28px;
+}
+.breation .contact-wrap .txt-grp .wh-txt {
+  color: #fff;
+}
+.breation .contact-wrap .img-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 3.9375rem;
+}
+.breation .vs-motion-section {
+  padding: 209px 0 145px;
+  background-color: #000;
+}
+.breation .vs-motion-section .txt-grp {
+  margin: 0 0 95px 100px;
+}
+.breation .vs-motion-section .txt-grp .ttl {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.breation .vs-motion-section .txt-grp .txt {
+  margin-top: 27px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.breation .performance-section {
+  padding: 249px 0 162px;
+  background-image: url("/breation/images/img_about_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .performance-section .ttl-grp {
+  width: 50%;
+  margin-left: auto;
+  margin-bottom: 160px;
+}
+.breation .performance-section .ttl-grp .ttl {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+.breation .performance-section .ttl-grp .txt {
+  margin-top: 27px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 29px;
+  color: #000;
+}
+.breation .performance-section .about-container {
+  position: relative;
+}
+.breation .performance-section .about-container .panel {
+  position: relative;
+}
+.breation .performance-section .about-container .about-bg-wrap {
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+  -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.27);
+          box-shadow: 0 30px 50px rgba(0, 0, 0, 0.27);
+}
+.breation .performance-section .about-container .about-bg-wrap .bg-grp {
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+}
+.breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+  z-index: -1;
+  position: absolute;
+  width: 1000px;
+  height: auto;
+  top: 220px;
+  left: 26%;
+  -webkit-transform: translateX(17%);
+          transform: translateX(17%);
+}
+@media (max-width: 1680px) {
+  .breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+    left: 23%;
+  }
+}
+@media (max-width: 1530px) {
+  .breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+    left: 20%;
+  }
+}
+@media (max-width: 1300px) {
+  .breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+    left: 15%;
+  }
+}
+@media (max-width: 1000px) {
+  .breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+    left: 6%;
+  }
+}
+@media (max-width: 800px) {
+  .breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+    left: -5%;
+  }
+}
+@media (max-width: 700px) {
+  .breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+    left: -10%;
+  }
+}
+@media (max-width: 375px) {
+  .breation .performance-section .about-container .about-bg-wrap .bg-grp.gradient-bg {
+    top: 90px;
+    left: -10%;
+    width: 550px;
+  }
+}
+.breation .performance-section .about-container .about-bg-wrap .bg-grp .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.breation .performance-section .about-container .about-wrap {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.breation .performance-section .about-container .about-wrap .sub-txt {
+  margin-bottom: 89px;
+  padding-top: 341px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -0.3699px;
+}
+.breation .performance-section .about-container .about-wrap .sub-txt .bold {
+  font-weight: 700;
+}
+.breation .performance-section .about-container .about-wrap .video-grp {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-animation-name: expansion;
+          animation-name: expansion;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-timing-function: cubic-bezier(0.82, 0.23, 0.25, 0.86);
+          animation-timing-function: cubic-bezier(0.82, 0.23, 0.25, 0.86);
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+.breation .performance-section .about-container .about-wrap .video-grp .video {
+  width: 100%;
+  height: 100%;
+}
+.breation .performance-section .about-container .about-wrap .txt-grp {
+  margin-top: 105px;
+  text-align: center;
+}
+.breation .performance-section .about-container .about-wrap .txt-grp .ttl {
+  font-size: 5.0625rem;
+  font-weight: 700;
+  letter-spacing: 3.95px;
+  color: #fff;
+}
+.breation .performance-section .about-container .about-wrap .txt-grp .sm-ttl {
+  margin: 31.8px 0 101px;
+  font-size: 2.0625rem;
+  font-weight: 200;
+  color: #fff;
+}
+.breation .performance-section .about-container .about-wrap .txt-grp .txt {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 35.2px;
+  color: #fff;
+}
+.breation .workcation-section {
+  padding: 276.6px 0 147.5px;
+  background-image: url("/breation/images/img_workcation_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .workcation-section .gif-grp {
+  display: block;
+  width: 474px;
+  height: 431px;
+  margin-top: -8px;
+}
+.breation .workcation-section .gif-grp .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .workcation-section .txt-grp {
+  display: block;
+  margin-top: 140px;
+}
+.breation .workcation-section .txt-grp .ttl {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.breation .workcation-section .txt-grp .desc {
+  margin-top: 25px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.breation .processes-section .panel {
+  position: relative;
+}
+.breation .processes-section .vdo-grp {
+  width: 100%;
+  height: 1182px;
+}
+.breation .processes-section .vdo-grp .vdo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.breation .processes-section .txt-grp {
+  position: absolute;
+  top: calc(50% + 112px);
+  left: calc(50% + 27px);
+}
+.breation .processes-section .txt-grp .ttl {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.breation .processes-section .txt-grp .desc {
+  margin-top: 25px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.breation .notebook-section .vdo-grp {
+  width: 100%;
+  height: 1041px;
+}
+.breation .notebook-section .vdo-grp .vdo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.breation .intense-section {
+  padding: 161px 0 182px;
+  background-color: #012DDC;
+}
+.breation .intense-section .txt-grp {
+  text-align: center;
+}
+.breation .intense-section .txt-grp .ttl {
+  display: block;
+  position: relative;
+  padding-top: 52px;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 65px;
+  color: #678FFF;
+}
+.breation .intense-section .txt-grp .ttl::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 25px;
+  height: 17px;
+  background-image: url("/breation/images/img_quote_left.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.breation .intense-section .txt-grp .ttl .bold {
+  color: #fff;
+}
+.breation .intense-section .txt-grp .txt {
+  margin-top: 43px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 29.34px;
+  color: rgba(206, 219, 255, 0.9);
+}
+.breation .breation-branding-section {
+  padding: 598px 0 109px;
+  background-image: url("/breation/images/img_branding_bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breation .breation-branding-section .img-grp {
+  display: block;
+  width: 577px;
+  height: 185px;
+  margin-left: 100px;
+}
+.breation .breation-branding-section .img-grp .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.breation .breation-branding-section .txt-grp {
+  margin-top: 267.7px;
+  text-align: right;
+}
+.breation .breation-branding-section .txt-grp .ttl {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.breation .breation-branding-section .txt-grp .copyright {
+  display: block;
+  margin-top: 39px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #fff;
+}
